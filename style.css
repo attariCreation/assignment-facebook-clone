@@ -77,13 +77,19 @@ main #left h1 {
     padding-block: 10px;
     font-family: 'Poppins';
     padding-inline: 10px;
-    color: var(--clr-light-gray);
-
+    color: var(--clr-gray);
     border: 1px solid var(--clr-light-gray);
     margin-block: 5px;
     border-radius:5px;
     margin-block: 5px;
     outline: none;
+}
+#right input::placeholder{
+    color: var(--clr-light-gray);
+
+}
+#right input:FOCUS{
+    outline: 1px solid blue;
 }
 #seperator{
     width: 100%;
