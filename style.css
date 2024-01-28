@@ -118,7 +118,15 @@ main #left h1 {
     box-shadow: 2px 2px 5px lightblue;
     
 }
-
+#log button{
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+    border: none;
+    font-weight: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
 #forget{
     text-align: center;
     color: #3588F3;
@@ -131,6 +139,15 @@ main #left h1 {
     display: block;
 }
 
+#forget button{
+    background-color: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border: none;
+    cursor: pointer;
+    display: inline;
+}
 #new{
     background-color: #36A420;
     color: white;
